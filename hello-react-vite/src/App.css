@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+}
+#root {
+ 
+  margin: 0 ; 
+}
+.upper {
+  background-image: url('./assets/background.jpg');
+  background-size: cover;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu {
+  margin: 0;
+  padding: 10px; 
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.logo {
+  margin: 0;
+  padding: 10px;
+  width: 50px;
+  height: 50px;
+ 
+}
+h1{
+font-family: system-ui, 'Helvetica Neue', sans-serif;  font-size:8vw;
+  padding-left: 10%;
+  padding-right: 30%; 
+  color: white;
+}
+p{
+    font-family : system-ui, 'Helvetica Neue', sans-serif;
+  font-size: 2vw;
+  font-weight: lighter;
+  margin-left: 10%;
+  margin-right: 60%;
+  color: white;
+}
+button {
+  margin-left: 10%;
+  background-color: white;
+  color:black;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.features p {
+  color: rgb(60, 58, 58);
+  font-size: 1.5vw;
+  margin: 10px;
+  padding: 30px;
+
+}
+img{
+  width: 120px;
+  height: 120px;
+}
