@@ -68,3 +68,6 @@ img{
   width: 120px;
   height: 120px;
 }
+.features h2 , .features img {
+  padding: 0 30px;
+}
